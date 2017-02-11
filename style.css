@@ -1,3 +1,33 @@
 .container {
-	background-color: #66bfb0;
+	background-color: #4aaaa5;
+	width: 275px;
+	height: 77px;
+	color: white;
+	text-align: center;margin-left: 275px;
+	margin-top: 25px;
+	vertical-align: text-center;	
 }
+/*Navigation*/
+
+ul {
+	list-style-type: none;
+	color: #777777;
+	overflow: hidden;
+}
+li a {
+	display: inline-block;
+	color: #777777;
+	text-align: center;
+	padding: 14px 14px;
+}
+
+li {
+	float: right;
+}
+
+li a:hover {
+
+background-color: blue;
+}
+
+
