@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	<title>Andrew Bernstein Portfolio</title>
 </head>
@@ -20,10 +21,21 @@
 
 	<div class="container">
 
-		<section id="main-bio">
-			<h2>Contact Me</h2>
+		<section id="form">
+			<h2>Contact</h2>
 			<hr>
+			<form action="mailto:andy_bernstein@yahoo.com" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="firstname lastname" value="Andrew Bernstein"><br>
+				E-mail:<br>
+				<input type="E-mail" name="E-mail" value="andy_bernstein@yahoo.com"><br>
+				Message:<br>
+				<textarea name="message" rows="10" cols="30">
+				</textarea><br><br>
+				<input type="submit" value="submit">
+				</form>
 		</section>
+		
 
 		<section id="connect-info">
 			<h3>Connect With Me</h3>
