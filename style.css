@@ -214,20 +214,19 @@ textarea {
 
 .hangman {
 	position: relative;
-	width: 201px;
 }
 
-p .hangman {
+.hangman p {
 	position: absolute;
 	top: 100px;
 	left: 0;
 	width: 201px;
-}
-
-p span .hangman{
 	color: white;
 	background: #4aaaa5;
+	text-align: center;
+	margin-left: 25px;
 }
+
 
 #pimage1 {
 	width: 201px;
